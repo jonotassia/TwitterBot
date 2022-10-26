@@ -29,8 +29,11 @@ def authenticate_user():
 def verify_account(client):
     while True:
         try:
-            handle = input("Which user would you like to follow?")
-            user_data = client.get_user(username = handle)
+            handle = input("Which user would you like to follow? ")
+            if handle == '':
+                continue
+
+            user_data = client.get_user(username=handle)
             user_id = user_data[0]['id']
             return user_id
 
@@ -53,3 +56,4 @@ if __name__ == '__main__':
     client = authenticate_user()
     user_id = verify_account(client)
     follow_users_following(client, user_id)
+    print('All done.')
