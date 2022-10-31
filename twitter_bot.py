@@ -4,14 +4,7 @@
 import tweepy
 
 
-# Twitter tokens/keys
-api_key = 'blqdTgkMBqtwGwEs2w4n3HidC'
-api_key_secret = 'wYvA9txUuPhRrTMnuEHBNb9MUzGO6qRg09v5VmxYbKWfqlCZ5y'
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAK0qigEAAAAAqHtsQjR2jfuuxS15y6L%2FYmi6yVM%3DPslbYRoPdFFnK6jFPTK3HoMP7l6VmbH6v8TlARYB0yxHwukmws'
-client_id = 'TVRKc0VnRGxMTWJvbHhjb1ROWGI6MTpjaQ'
-client_secret = '0q2UkLnNQPgtPBieR2UuENFsn5Q41PQttIoCTecu6DwRLk5KlK'
-access_token = '1584658781178187776-aregf8NBuDBFHScKZXQ6eKSCskoHdA'
-access_token_secret = 'tWfbeYETh4CJsZEHtGD5pbjr6dPtlRFimvWDxcokcbSjJ'
+# Twitter tokens/keys (stored locally)
 
 
 def authenticate_user():
